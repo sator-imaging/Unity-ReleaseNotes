@@ -1,0 +1,39 @@
+# Unity 2019.1.1
+https://unity3d.com/unity/whats-new/2019.1.1
+
+## Fixes
+
+<ul>
+<li><p>Android: Fixed Vulkan rendering when sRGB write control is enabled in PlayerSettings. (<a href="https://issuetracker.unity3d.com/issues/investingating-android-vulkan-crash-or-black-screen-if-linear-color-space-is-used-and-srgb-write-mode-is-enabled">1107481</a>, 1125474)</p></li>
+<li><p>Animation: Fixed crash when state has "too many" scripts attached. (1137055, 1150381)</p></li>
+<li><p>Asset Bundle: Fixed an issue where an "Inconsistent asset" error was logged during BuildPipeline.BuildAssetBundles. (1138140, 1139330)</p></li>
+<li><p>Asset Import: Fixed a regression where blender files import fails when the blender application installed is version 2.79 (<a href="https://issuetracker.unity3d.com/issues/editor-throws-error-when-importing-native-blend-file-imported-file-is-not-recognized">1144643</a>, 1144766)</p></li>
+<li><p>Audio: Fixed user selection not being respected for dsp buffer size in the audio settings. (<a href="https://issuetracker.unity3d.com/issues/audio-dsp-buffer-size-sets-to-best-performance-when-pressing-trying-to-set-to-default">1129895</a>, 1150380)</p></li>
+<li><p>Editor: Fixed a bug that disabled the availability of having rsp files inside Packages correctly. (<a href="https://issuetracker.unity3d.com/issues/csc-dot-rsp-files-generate-invalid-assetdatabase-path-warning-messages-if-placed-in-the-package-folder">1137372</a>, 1138461)</p></li>
+<li><p>Editor: Fixed editor crashing while clicking on Overrides window for instance of name based replaced variant. (1137288, 1145518)</p></li>
+<li><p>Editor: Fixed hierarchy incorrect scenevis icon for scenes and toggling behavior (1126555, 1143155)</p></li>
+<li><p>Editor: Fixed hierarchy ping being slightly offset (<a href="https://issuetracker.unity3d.com/issues/hierarchy-ping-effect-rendering-is-offset">1140214</a>, 1143158)</p></li>
+<li><p>Editor: Fixed scene header context menu in hierararchy being slightly offset (1142146, 1143160)</p></li>
+<li><p>Editor: Fixed the issue with GameView Scale's minimum value being dependent on the windows display scaling factor. (<a href="https://issuetracker.unity3d.com/issues/gameview-defaults-to-1-dot-25x-scale-on-windows">1099270</a>, 1126537)</p></li>
+<li><p>GI: Fixed a race condition in Enlighten data loading during additive scene loading that led to a crash in the standalone player. (<a href="https://issuetracker.unity3d.com/issues/realtime-gi-toggling-between-additively-loaded-scenes-quickly-leads-to-a-crash">1124660</a>, 1132699)</p></li>
+<li><p>Graphics: Fixed missing draws when using an uninitialized RenderTexture with Vulkan. (<a href="https://issuetracker.unity3d.com/issues/android-vulkan-raw-image-with-render-texture-causes-ui-elements-to-become-invisible-on-vulkan">1107219</a>, 1123843)</p></li>
+<li><p>IL2CPP: Added support for the MethodImplOptions.NoOptimization C# attribute. (1124061, 1144679)</p></li>
+<li><p>IL2CPP: Fixed a build failure that would occur when targeting UWP w/ il2cpp while using a Managed Stripping Level of High. (<a href="https://issuetracker.unity3d.com/issues/uwp-il2cpp-build-fails-when-manage-stripping-level-is-set-to-high">1137227</a>, 1146287)</p></li>
+<li><p>IL2CPP: Fixed an intermittent crash when a managed exception occurs on a back ground thread while the process is shutting down.</p></li>
+<li><p>IL2CPP: Fixed building generated player Visual Studio project when using IL2CPP scripting backend and building to a builder with unicode characters in the path on Windows Standalone and UWP players. (<a href="https://issuetracker.unity3d.com/issues/uwp-build-fails-when-the-project-folder-name-has-non-ascii-character">1129992</a>, 1143205)</p></li>
+<li><p>IL2CPP: Fixed making RuntimeHelpers.IsReferenceOrContainsReferences call a generation-time intrinsic that will output a "false" or "true" boolean value to the C++ code. This greatly speeds up some .NET container classes that make use of this method. (<a href="https://issuetracker.unity3d.com/issues/ios-standard-collections-make-an-unnecessary-call-to-a-slow-isreferenceorcontainsreferences">1143169</a>, 1145502)</p></li>
+<li><p>IL2CPP: Fixed overwriting a copy of a generic by ref argument that uses specifically crafted IL bytecode. (<a href="https://issuetracker.unity3d.com/issues/il2cpp-ref-parameters-in-generic-functions-are-overridden">1140509</a>, 1147441)</p></li>
+<li><p>IL2CPP: Fixed proper C++ code not being generated when Mathf.Infinity is used as the value for an attribute argument. (<a href="https://issuetracker.unity3d.com/issues/using-mathf-dot-infinity-in-attribute-throws-an-il2cpp-error-when-building-apk-for-android-using-il2cpp-backend">1139579</a>, 1141559)</p></li>
+<li><p>IL2CPP: Fixed some assemblies missing symbol files after building with the Medium or High Managed Stripping Level. (<a href="https://issuetracker.unity3d.com/issues/debugging-symbols-disappear-when-managed-stripping-level-is-set-to-medium-high-normal-or-agressive">1142732</a>, 1144690)</p></li>
+<li><p>iOS: Fixed  SendMessage not working on iOS/tvOS simulator. (<a href="https://issuetracker.unity3d.com/issues/ios-unitysendmessage-is-not-working-on-simulator-when-trying-to-login-to-facebooksdk">1138257</a>, 1139346)</p></li>
+<li><p>Linux: Fixed Linux editor 'scrolling' when starting up in a maximized position. (1130242, 1141032)</p></li>
+<li><p>Mobile: Fixed [iOS] VR Shaders included in builds. (<a href="https://issuetracker.unity3d.com/issues/ios-vr-shaders-included-in-builds">1123955</a>, 1142461)</p></li>
+<li><p>Physics: Fixed any hit being returned by MeshCollider.Raycast instead of the closest one. (<a href="https://issuetracker.unity3d.com/issues/raycasts-hit-the-second-layer-of-the-mesh-collider-when-the-first-layer-is-thin">1136868</a>, 1144347)</p></li>
+<li><p>Physics: Fixed crash that happened when passing a zero direction vector to batched physics queries. (<a href="https://issuetracker.unity3d.com/issues/unity-crashes-when-using-c-number-batched-raycast-requests-containing-invalid-direction-data-00-0">1134317</a>, 1144345)</p></li>
+<li><p>Physics: Fixed the physics debug window not being open/closed correctly. (<a href="https://issuetracker.unity3d.com/issues/physics-debug-overlay-panel-gets-duplicated-in-scene-view-when-window-next-to-physics-debug-window-is-repositioned">1115985</a>, 1127093)</p></li>
+<li><p>Scripting: Fixed issue with "Menu  can't be checked because it doesn't exist" warning being emitted when deleting a checked menu item script. (<a href="https://issuetracker.unity3d.com/issues/deleting-script-of-a-checked-menuitem-results-in-cant-be-checked-because-it-doesnt-exist-error">1136169</a>, 1136820)</p></li>
+<li><p>Video: Fixed Spatial Blend in AudioSource not always impacted by distance when used by VideoPlayer. (<a href="https://issuetracker.unity3d.com/issues/video-when-audio-output-mode-is-set-to-audio-source-audio-is-very-silent">1114277</a>, 1139381)</p></li>
+<li><p>Windows: Fixed issue where high-poll-rate mice were causing performance degradation in the Editor on Windows. (<a href="https://issuetracker.unity3d.com/issues/input-polling-rates-drastically-decreases-editor-performance">1117360</a>, 1144635)</p></li>
+<li><p>Windows: Fixed SystemInfo.deviceUniqueIdentifier not returnin the same values as Unity 2018.3 and earlier versions. (<a href="https://issuetracker.unity3d.com/issues/systeminfo-dot-deviceuniqueidentifier-returns-different-results-in-2019-dot-1">1146923</a>, 1146971)</p></li>
+<li><p>XR: Updated OpenVR to 1.0.14. This fixes an issue on Linux where the player may crash if it is built for OpenVR, but SteamVR is not installed on the machine. (<a href="https://issuetracker.unity3d.com/issues/linux-crash-in-dl-find-dso-for-object-when-entering-play-mode-with-vr-support-enabled">985931</a>, 1144524)</p></li>
+</ul>
