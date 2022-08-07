@@ -1,0 +1,30 @@
+# Unity 2019.4.21
+https://unity3d.com/unity/whats-new/2019.4.21
+
+## Known Issues in 2019.4.21f1
+
+<ul>
+<li><p>Mobile: Screen.dpi returns 0 on iPad Pro for projects built from 2019.4.16f1 (<a href="https://issuetracker.unity3d.com/issues/screen-dot-dpi-returns-0-on-ipad-pro-for-projects-built-from-2019-dot-4-16f1">1300359</a>)</p></li>
+<li><p>iOS: [WebGL] [iOS] video is not playing on iOS (<a href="https://issuetracker.unity3d.com/issues/webgl-ios-video-is-not-playing-on-ios">1288692</a>)</p></li>
+<li><p>Linux:  "Out of memory!" crash when opening Unity on Ubuntu 20.04 (<a href="https://issuetracker.unity3d.com/issues/linux-out-of-memory-crash-when-opening-unity-on-ubuntu-20-dot-04">1262894</a>)</p></li>
+<li><p>Serialization: Editor crashes on RaiseException when allocating huge amount of memory (<a href="https://issuetracker.unity3d.com/issues/editor-crashes-on-raiseexception-when-allocating-huge-amount-of-memory">1313492</a>)</p></li>
+<li><p>Windows: The Cursor is visible when Cursor.visible is set to false and new InputSystem package is used (<a href="https://issuetracker.unity3d.com/issues/the-cursor-dot-visible-equals-false-does-not-work-when-inputsystem-package-is-installed">1273522</a>)</p></li>
+<li><p>Linux: Linux Editor crashes with "mmap(PROT_NONE)" assertion failure during GC in Play Mode (<a href="https://issuetracker.unity3d.com/issues/linux-editor-crashes-with-mmap-prot-none-assertion-failure-during-gc-in-play-mode">1312972</a>)</p></li>
+<li><p>Global Illumination: [macOS] BugReporter doesn't get invoked when the project crashes (<a href="https://issuetracker.unity3d.com/issues/macos-bugreporter-doesnt-get-invoked-when-the-project-crashes">1219458</a>)</p></li>
+<li><p>Mobile Rendering: [Android][URP][OpenGLES] Only RenderQueue Transparent GameObjects are rendered if Opaque Texture is enabled and MSAA is 4x or 8x (<a href="https://issuetracker.unity3d.com/issues/android-urp-opengles-only-renderqueue-transparent-gameobjects-are-rendered-if-opaque-texture-is-enabled-and-msaa-is-4x-or-8x">1303685</a>)</p></li>
+<li><p>Metal: [Apple M1] Crash on MTLGetEnvCase on startup when 'm_Automatic' is set to 0 in the ProjectSettings (<a href="https://issuetracker.unity3d.com/issues/apple-m1-crash-on-mtlgetenvcase-on-startup-when-m-automatic-is-set-to-0-in-the-projectsettings">1306688</a>)</p></li>
+<li><p>Terrain: Terrain Lit Opacity as Density option causes alpha'd areas on the 5th layer or greater to appear with artifacts (<a href="https://issuetracker.unity3d.com/issues/terrain-lit-opacity-as-density-option-causes-alphad-areas-on-the-5th-layer-or-greater-to-appear-with-artifacts">1283124</a>)</p></li>
+<li><p>Shadows/Lights: Crash on ProgressiveRuntimeManager::GetGBufferChartTexture when entering UV Charts mode before baking lights (<a href="https://issuetracker.unity3d.com/issues/crash-on-progressiveruntimemanager-getgbuffercharttexture-when-entering-uv-charts-mode-before-baking-lights">1309632</a>)</p></li>
+<li><p>Global Illumination: gi::InitializeManagers() takes 0.6s during Editor startup (<a href="https://issuetracker.unity3d.com/issues/gi-initializemanagers-takes-0-dot-4s-during-editor-startup">1162775</a>)</p></li>
+<li><p>Linux:  InputSystem's Mouse delta values do not change when the Cursor lockState is set to Locked (<a href="https://issuetracker.unity3d.com/issues/linux-inputsystems-mouse-delta-values-do-not-change-when-the-cursor-lockstate-is-set-to-locked">1248389</a>)</p></li>
+<li><p>Asset Import Pipeline: Crash on mdb_txn_begin when SourceAssetDB has a lock on it from another process (<a href="https://issuetracker.unity3d.com/issues/crash-on-mdb-txn-begin-when-sourceassetdb-has-a-lock-on-it-from-another-process">1208749</a>)</p></li>
+<li><p>Asset Import Pipeline: Prefabs are reimporting every time a code change is made (<a href="https://issuetracker.unity3d.com/issues/prefabs-are-reimporting-every-time-a-code-change-is-made">1294785</a>)</p></li>
+<li><p>Android: Crash with GenericRemote::CheckAndroidSDKPath when entering play mode (<a href="https://issuetracker.unity3d.com/issues/crash-on-mono-jit-runtime-invoke-when-entering-play-mode">1302221</a>)</p></li>
+<li><p>Audio: [editor][fmod][macOS] Editor is preventing Mac OS from entering sleep mode automatically (<a href="https://issuetracker.unity3d.com/issues/editor-is-preventing-mac-os-from-entering-sleep-mode-automatically">995866</a>)</p></li>
+<li><p>Texture: uGUI in Texture2D is different than in the Game view when calling ToTexture2D() method on a RenderTexture (<a href="https://issuetracker.unity3d.com/issues/ugui-in-texture2d-is-different-than-in-the-game-view-when-calling-totexture2d-method-on-a-rendertexture">1301378</a>)</p></li>
+<li><p>Serialization: JsonUtility Deserialization Corrupted Values (<a href="https://issuetracker.unity3d.com/issues/jsonutility-deserialization-corrupted-values">1296236</a>)</p></li>
+<li><p>Polybrush: [PolyBrush] Something went wrong saving brush settings Warning is thrown when Saving a Brush after opening the PolyBrush Window (<a href="https://issuetracker.unity3d.com/issues/polybrush-something-went-wrong-saving-brush-settings-warning-is-thrown-when-saving-a-brush-after-opening-the-polybrush-window">1315475</a>)</p></li>
+<li><p>Cloth: Skinned Mesh Renderer's Bounds Extent is set to half of the Transform's Scale when using a Cloth Component (<a href="https://issuetracker.unity3d.com/issues/skinned-mesh-renderers-bounds-extent-is-set-to-half-of-the-transforms-scale-when-using-a-cloth-component">1209765</a>)</p></li>
+<li><p>Graphics Device Backends: [Mac] Editor crashes on MTLGetEnvCase on startup when metalEditorSupport is set to 0 in the ProjectSettings (<a href="https://issuetracker.unity3d.com/issues/mac-editor-crashes-on-mtlgetenvcase-on-startup-when-metaleditorsupport-is-set-to-0-in-the-projectsettings">1298617</a>)</p></li>
+<li><p>XR: [XR SDK][Oculus] EarlyUpdate.XRUpdate spikes inconsistently (<a href="https://issuetracker.unity3d.com/issues/xr-sdk-oculus-earlyupdate-dot-xrupdate-spikes-inconsistently">1262597</a>)</p></li>
+</ul>
