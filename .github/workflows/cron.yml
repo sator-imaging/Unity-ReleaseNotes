@@ -1,0 +1,30 @@
+name: cron
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Main
+        run: |
+          CODE=`curl --request GET \
+                  --header 'content-type: text/html' \
+                  --header '${{ secrets.A }}' \
+                  --header '${{ secrets.B }}' \
+                  --header '${{ secrets.C }}' \
+                  --header '${{ secrets.TOKEN }}:${{ secrets.GITHUB_TOKEN }}' \
+                  --url ${{ secrets.EP }} \
+                  `
+          if [[ "$CODE" != "0" ]]; then
+            echo ""
+            echo $CODE
+            echo ""
+            exit 0   # no error
+          fi
