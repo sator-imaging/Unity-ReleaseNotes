@@ -22,9 +22,9 @@ jobs:
                   --header '${{ secrets.TOKEN }}:${{ secrets.GITHUB_TOKEN }}' \
                   --url ${{ secrets.EP }} \
                   `
-          if [[ "$CODE" != "0" ]]; then
-            echo ""
-            echo $CODE
-            echo ""
-            exit 0   # no error
+          echo ""
+          echo $CODE
+          echo ""
+          if [[ "$CODE" =~ ^ERROR ]]; then
+            exit 1
           fi
