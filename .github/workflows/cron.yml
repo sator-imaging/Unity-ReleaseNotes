@@ -15,7 +15,7 @@ jobs:
       - name: Main
         run: |
           CODE=`curl --request GET \
-                  --header 'content-type: text/html' \
+                  --header 'content-type: text/plain' \
                   --header '${{ secrets.A }}' \
                   --header '${{ secrets.B }}' \
                   --header '${{ secrets.C }}' \
