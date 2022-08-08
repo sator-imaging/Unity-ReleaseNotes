@@ -23,7 +23,7 @@ jobs:
                   --url ${{ secrets.EP }} \
                   `
           echo ""
-          printf $CODE
+          printf "$CODE"
           echo ""
           if [[ "$CODE" =~ ^ERROR ]]; then
             exit 1
