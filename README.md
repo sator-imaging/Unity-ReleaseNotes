@@ -1,4 +1,4 @@
-# Unity-ReleaseNotes [![cron](https://github.com/sator-imaging/Unity-ReleaseNotes/actions/workflows/cron.yml/badge.svg)](https://github.com/sator-imaging/Unity-ReleaseNotes/actions/workflows/cron.yml)
+# Unity-ReleaseNotes  [![cron](https://github.com/sator-imaging/Unity-ReleaseNotes/actions/workflows/cron.yml/badge.svg)](https://github.com/sator-imaging/Unity-ReleaseNotes/actions/workflows/cron.yml)
 
 Update everyday 00:00 UTC &raquo; https://unity3d.com/unity/whats-new
 
@@ -6,8 +6,35 @@ Update everyday 00:00 UTC &raquo; https://unity3d.com/unity/whats-new
 
 ## Usage
 
-Search known issues on URP in Unity 2021:
+To see known URP issues in Unity 2021:
 - https://github.com/sator-imaging/Unity-ReleaseNotes/search?q=URP+known+path%3AUnity2021
 
-Search about issues on URP in Unity 2021, in older to newer order:
+Recently fixed XR issues:
+- https://github.com/sator-imaging/Unity-ReleaseNotes/search?o=desc&q=%22XR+Fixed%22&s=indexed
+
+URP issues in Unity 2021, ascending order:
 - https://github.com/sator-imaging/Unity-ReleaseNotes/search?o=asc&q=URP+issue+path%3AUnity2021&s=indexed
+
+
+
+
+&nbsp;  
+&nbsp;  
+
+
+### Devnote
+
+How to delete all the releases and tags from remote repository.[^1][^2]
+
+[^1]: [GitHub CLI](https://cli.github.com/) must be installed and authorized.
+[^2]: Linux-compatible CLI environment is required on windows.
+
+
+1. delete all releases.  
+   `git tag | xargs -t -n 1  gh release delete`
+
+2. delete all tags remaining on remote repository.  
+   `git tag | xargs -t -n 1  git push --delete origin`
+
+3. delete local repository tags if necessary.  
+   `git tag | xargs -t  git tag -d`
