@@ -7,7 +7,7 @@ Update job starts on everyday 00:00 UTC. It may be delayed an hour or more due t
 ## Usage
 
 `"<Package> Fixed"` to search fixed issues.
-`known <Package>` to search known issues.
+`filename:known <Package>` to search known issues.
 
 `path:Unity<Version>` to specify version to search for.
 
@@ -16,7 +16,7 @@ Recently fixed URP issues, except for alpha release:
 - https://github.com/sator-imaging/Unity-ReleaseNotes/search?o=desc&q=%22URP+Fixed%22+-alpha&s=indexed
 
 To see known URP issues in Unity 2021:
-- https://github.com/sator-imaging/Unity-ReleaseNotes/search?q=URP+known+path%3AUnity2021
+- https://github.com/sator-imaging/Unity-ReleaseNotes/search?o=desc&q=URP+filename%3Aknown+path%3AUnity2021&s=indexed
 
 Recently fixed XR issues:
 - https://github.com/sator-imaging/Unity-ReleaseNotes/search?o=desc&q=%22XR+Fixed%22&s=indexed
