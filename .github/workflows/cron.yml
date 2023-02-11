@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Main
         run: |
-          CODE=`curl -H '${{ secrets.TOKEN }}:${{ secrets.GITHUB_TOKEN }}' ${{ secrets.CURL_ARGS }}`
+          CODE=`curl ${{ secrets.CURL_ARGS }} ${{ secrets.GITHUB_TOKEN }}`
           echo ""
           printf "$CODE"
           echo ""
