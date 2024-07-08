@@ -18,6 +18,6 @@ jobs:
           echo ""
           printf "$CODE"
           echo ""
-          if [[ "$CODE" =~ ^ERROR ]]; then
+          if [[ "$CODE" =~ ^ERROR ]] || [[ "$CODE" = "" ]]; then
             exit 1
           fi
