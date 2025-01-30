@@ -3,8 +3,14 @@
 Update job starts on everyday 00:00 UTC. It may be delayed an hour or more due to busy time of GitHub Actions.
 
 
+## Official Site (Alpha)
 
-## Usage
+There is official release notes archives:
+https://alpha.release-notes.ds.unity3d.com/
+
+
+
+# Usage
 
 `"<Package> Fixed"` to search fixed issues.
 `filename:known <Package>` to search known issues.
@@ -31,11 +37,11 @@ Examples:
 
 
 
+
 &nbsp;  
 &nbsp;  
 
-
-### Devnote
+## Devnote
 
 How to delete all the releases and tags from remote repository.[^1][^2]
 
