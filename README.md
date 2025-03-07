@@ -17,6 +17,7 @@ https://alpha.release-notes.ds.unity3d.com/
 
 `path:Unity<Version>` to specify version searching for.
 
+> [!TIP]
 > Note that GitHub search sometimes says "nothing found", reloading page will show correct result.
 
 
