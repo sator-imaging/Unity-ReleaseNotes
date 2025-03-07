@@ -1,6 +1,6 @@
 # Unity-ReleaseNotes  [![cron](https://github.com/sator-imaging/Unity-ReleaseNotes/actions/workflows/cron.yml/badge.svg)](https://github.com/sator-imaging/Unity-ReleaseNotes/actions/workflows/cron.yml)
 
-Update job starts on everyday 00:00 UTC. It may be delayed an hour or more due to busy time of GitHub Actions.
+Update job starts on everyday 23:59 UTC. It may be delayed an hour or more due to busy time of GitHub Actions.
 
 
 ## Official Site (Alpha)
