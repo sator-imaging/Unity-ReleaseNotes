@@ -34,10 +34,10 @@ https://unity.com/releases/editor/whats-new/6000.3.7f1
 - `Platform Audio`: [Windows] エディターで様々なアクションを実行すると AudioManager::InitFMOD でクラッシュする
     ([uum-126803](https://issuetracker.unity3d.com/issues/crash-on-audiomanager-initfmod-when-performing-various-actions-in-the-editor))
 
-- `特定のプラグインがインストールされたシーンを開くと、複数のスタックトレースでクラッシュする。
-    ([uum-133643](https`: //issuetracker.unity3d.com/issues/crash-with-multiple-stack-traces-when-opening-scenes-with-a-certain-plugin-installed))
+- 特定のプラグインがインストールされたシーンを開くと、複数のスタックトレースでクラッシュする。
+    ([uum-133643](https://issuetracker.unity3d.com/issues/crash-with-multiple-stack-traces-when-opening-scenes-with-a-certain-plugin-installed))
 
-- `([uum-132677]) `: 空白の URP プロジェクトでプレイモードに入ったり出たりする際のエディタのメモリリーク
+- 空白の URP プロジェクトでプレイモードに入ったり出たりする際のエディタのメモリリーク
     ([uum-132677](https://issuetracker.unity3d.com/issues/editor-memory-leak-when-entering-and-exiting-play-mode-in-a-blank-urp-project))
 
 
