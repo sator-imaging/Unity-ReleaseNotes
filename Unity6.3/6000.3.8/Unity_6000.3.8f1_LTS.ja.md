@@ -63,7 +63,7 @@ https://unity.com/releases/editor/whats-new/6000.3.8f1
 
 
 
-##修正
+## 修正
 
 - `2D`: スプライトエディターウィンドウのカスタムピボットフィールドのオーバーフローを修正。
     ([uum-133168](https://issuetracker.unity3d.com/issues/sprite-editors-custom-pivot-fields-get-pushed-out-of-their-bounds-when-entering-a-lot-of-numbers-in-the-property-field))
