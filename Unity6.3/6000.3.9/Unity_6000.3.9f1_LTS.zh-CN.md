@@ -50,14 +50,14 @@ https://unity.com/releases/editor/whats-new/6000.3.9f1
 
 # 6000.3.9f1 发布说明
 
-# # 更改
+## 更改
 
 - 编辑器更改了设置了 targetVelocity 的棱柱关节类型（速度驱动棱柱关节），因此现在将目标速度设置为正值会在模拟过程中产生正线速度。同样，将目标速度设置为负值将导致线速度为负值。
     ([uum-113920](https://issuetracker.unity3d.com/issues/prismatic-articulationbody-moves-in-opposite-direction-when-using-targetvelocity))
 
 
 
-# # 修复
+## 修复
 
 - `2D`: 将磁贴调色板中用作警告图标的图像更改为更高分辨率的图像，使其在编辑器中看起来不那么模糊。
     ([uum-129885](https://issuetracker.unity3d.com/issues/help-box-icon-in-tile-palette-window-is-blurry-in-both-unity-themes))
@@ -222,9 +222,9 @@ https://unity.com/releases/editor/whats-new/6000.3.9f1
 
 
 
-# # 6000.3.9f1 中的软件包变更
+## 6000.3.9f1 中的软件包变更
 
-# # 更新的软件包
+## 更新的软件包
 
 - `com.unity.burst`: [1.8.27](https://docs.unity3d.com/Packages/com.unity.burst@1.8//changelog/CHANGELOG.html) 到 [1.8.28](https://docs.unity3d.com/Packages/com.unity.burst@1.8//changelog/CHANGELOG.html)
 

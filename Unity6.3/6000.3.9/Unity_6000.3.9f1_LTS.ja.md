@@ -50,14 +50,14 @@ DirectX 12の排他的フルスクリーンモードでフォーカスを切り�
 
 # 6000.3.9f1 リリースノート
 
-# # 変更点
+## 変更点
 
 - `エディター`: targetVelocity が設定された Prismatic Articulation Joint タイプを変更し、Target Velocity を正の値に設定すると、シミュレーション中に正の直線速度になるようにしました。同様に、Target Velocity を負の値に設定すると、直線速度は負になります。
     ([uum-113920](https://issuetracker.unity3d.com/issues/prismatic-articulationbody-moves-in-opposite-direction-when-using-targetvelocity))
 
 
 
-# # 修正
+## 修正
 
 - `2D`: タイルパレットの警告アイコンの画像を高解像度のものに変更。
     ([uum-129885](https://issuetracker.unity3d.com/issues/help-box-icon-in-tile-palette-window-is-blurry-in-both-unity-themes))
@@ -222,9 +222,9 @@ DirectX 12の排他的フルスクリーンモードでフォーカスを切り�
 
 
 
-# # 6000.3.9f1 におけるパッケージの変更
+## 6000.3.9f1 におけるパッケージの変更
 
-# # 更新されたパッケージ
+## 更新されたパッケージ
 
 - `com.unity.burst`: [1.8.27](https://docs.unity3d.com/Packages/com.unity.burst@1.8//changelog/CHANGELOG.html) から [1.8.28](https://docs.unity3d.com/Packages/com.unity.burst@1.8//changelog/CHANGELOG.html) へ。
 
