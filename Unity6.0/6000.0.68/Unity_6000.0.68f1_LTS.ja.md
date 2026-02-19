@@ -44,14 +44,14 @@ DirectX 12の排他的フルスクリーンモードでフォーカスを切り�
 
 # 6000.0.68f1 リリースノート
 
-# # 改良点
+## 改良点
 
 - `Shadergraph`: ノードを折りたたんだ時の UV ノードのチャンネルドロップダウンの見た目を改善。
     ([uum-115034](https://issuetracker.unity3d.com/issues/uv-nodes-label-is-cut-off-when-preview-is-collapsed))
 
 
 
-# # 変更点
+## 変更点
 
 - `編集`: targetVelocity が設定された Prismatic Articulation Joint タイプを変更し、Target Velocity を正の値に設定すると、シミュレーション中に正の直線速度が発生するようにしました。同様に、Target Velocity を負の値に設定すると、直線速度は負になります。
     ([uum-113920](https://issuetracker.unity3d.com/issues/prismatic-articulationbody-moves-in-opposite-direction-when-using-targetvelocity))
@@ -148,9 +148,9 @@ DirectX 12の排他的フルスクリーンモードでフォーカスを切り�
 
 
 
-# # 6000.0.68f1 におけるパッケージの変更点
+## 6000.0.68f1 におけるパッケージの変更点
 
-# # 更新されたパッケージ
+## 更新されたパッケージ
 
 - `com.unity.addressables`: [2.8.0](https://docs.unity3d.com/Packages/com.unity.addressables@2.8//changelog/CHANGELOG.html) から [2.8.1](https://docs.unity3d.com/Packages/com.unity.addressables@2.8//changelog/CHANGELOG.html) へ。
 

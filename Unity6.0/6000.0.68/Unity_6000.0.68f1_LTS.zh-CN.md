@@ -44,14 +44,14 @@ https://unity.com/releases/editor/whats-new/6000.0.68f1
 
 # 6000.0.68f1 发布说明
 
-# # 改进
+## 改进
 
 - 阴影图改进了折叠节点时 UV 节点上通道下拉菜单的外观。
     ([uum-115034](https://issuetracker.unity3d.com/issues/uv-nodes-label-is-cut-off-when-preview-is-collapsed))
 
 
 
-# # 更改
+## 更改
 
 - 编辑器更改了目标速度（targetVelocity）设置的棱柱关节（Prismatic Articulation Joint）类型，现在将目标速度（Target Velocity）设置为正值会在模拟过程中产生正线速度。同样，将目标速度设置为负值将导致线速度为负值。
     ([uum-113920](https://issuetracker.unity3d.com/issues/prismatic-articulationbody-moves-in-opposite-direction-when-using-targetvelocity))
@@ -60,7 +60,7 @@ https://unity.com/releases/editor/whats-new/6000.0.68f1
 
 
 
-# # 修复
+## 修复
 
 - `2D`: 修正了 Sprite Editor 窗口信息框被模块用户界面遮挡的问题。
     ([uum-131899](https://issuetracker.unity3d.com/issues/inactive-skinning-editor-toolbar-overlaps-the-help-box-in-the-sprite-editor-when-asset-is-not-editable))
@@ -148,9 +148,9 @@ https://unity.com/releases/editor/whats-new/6000.0.68f1
 
 
 
-# # 6000.0.68f1 中软件包的更改
+## 6000.0.68f1 中软件包的更改
 
-# # 更新的软件包
+## 更新的软件包
 
 - `com.unity.addressables`: [2.8.0](https://docs.unity3d.com/Packages/com.unity.addressables@2.8//changelog/CHANGELOG.html) 到 [2.8.1](https://docs.unity3d.com/Packages/com.unity.addressables@2.8//changelog/CHANGELOG.html)
 
